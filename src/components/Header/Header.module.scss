@@ -1,0 +1,49 @@
+.logoMain {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+}
+
+.logoHeader {
+  width: 141px;
+  height: 20px;
+  padding: 14px 19px;
+}
+
+.mainHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+   margin: 15px 50px 0 50px;
+}
+
+.listNav {
+  display: flex;
+  list-style: none;
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 22px;
+}
+.nav {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0 ;
+  font-size: 14px;
+  cursor: pointer;
+  box-sizing: border-box;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav:hover {
+  color: #007DFF;
+  transition:.3s;
+}
+
+.btnHeader {
+  background: white;
+  border: none;
+  padding: 9px 25px;
+  border-radius: 25px;
+  text-transform: uppercase;
+  font-weight: 500;
+  cursor: pointer;
+}
