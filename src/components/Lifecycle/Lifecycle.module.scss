@@ -1,0 +1,110 @@
+// Lifecycle.module.scss
+.lifecycleMain {
+  margin-top: 35px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.videoPlay {
+  width: 100%;
+  border-radius: 25px;
+  object-fit: cover;
+
+  @media (max-width: 768px) {
+    border-radius: 15px;
+    height: auto;
+  }
+
+  @media (max-width: 480px) {
+    border-radius: 10px;
+  }
+}
+
+.container {
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 25px;
+  padding: 2.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+  margin-top: 30px;
+  @media (max-width: 992px) {
+    padding: 2rem;
+  }
+
+  @media (max-width: 768px) {
+    padding: 1.5rem;
+    border-radius: 15px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}
+
+.headerTag {
+  margin-bottom: 1.5rem;
+
+  @media (max-width: 768px) {
+    margin-bottom: 1rem;
+  }
+
+  h5 {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 3px;
+
+    @media (max-width: 768px) {
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+
+    @media (max-width: 480px) {
+      font-size: 13px;
+      letter-spacing: 1.5px;
+    }
+  }
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007DFF;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+
+  @media (max-width: 992px) {
+    font-size: 1.75rem;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 1.25rem;
+  }
+}
+
+.description {
+
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  max-width: 700px;
+  width: 100%;
+  @media (max-width: 768px) {
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+
+  @media (max-width: 480px) {
+    font-size: 0.85rem;
+    line-height: 1.5;
+  }
+}
+

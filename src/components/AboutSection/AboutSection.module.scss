@@ -1,0 +1,82 @@
+.mainAbout {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 45px;
+ }
+.blockImage {
+
+  background: red;
+}
+
+.imageAbout {
+  width: 50%;
+      border-radius: 25px;
+ }
+
+.textOne {
+  color: #000000CC;
+}
+
+.aboutSection {
+  width: 50%;
+  padding: 2rem;
+  background: white;
+  border-radius: 25px;
+ }
+
+.minTitle {
+  font-size: 17px;
+  color: #000000CC;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.title {
+  color: #007DFF;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+@media (max-width: 1024px) {
+  .mainAbout {
+    flex-direction: column;
+    align-items: center;
+    }
+
+  .blockImage {
+     width: 95%;
+  }
+  .aboutSection {
+    padding: 1.5rem;
+    margin-right: 0;
+    width: 90%;
+
+  }
+
+  .title {
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 600px) {
+  .mainAbout {
+    margin-top: 30px;
+    gap: 1.5rem;
+  }
+
+  .minTitle {
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+  .textOne {
+    font-size: 14px;
+  }
+}
